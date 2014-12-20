@@ -1,4 +1,5 @@
 $(call inherit-product, vendor/plain/config/common.mk)
+$(call inherit-product, vendor/plain/config/telephony.mk)
 $(call inherit-product, vendor/plain/config/nfc_enhanced.mk)
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
